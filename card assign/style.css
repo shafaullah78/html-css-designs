@@ -1,0 +1,70 @@
+
+
+
+.card {
+width: 20%;
+border: 3px solid black;
+padding: 3px;
+background-color: blanchedalmond;
+}
+
+
+.card> img {
+width: 100%;
+object-fit: contain;
+
+}
+
+.parent {
+margin: auto;
+display: flex;
+gap: 50px;
+justify-content: center;
+margin: auto;
+}
+
+body {
+background-color: brown;
+}
+
+/* media query section */
+
+@media screen and (max-width:768px){
+
+
+.card {
+width: 95%;
+border: 1px solid black;
+background-color: blanchedalmond;
+}
+
+
+.card> img {
+width: 100%;
+object-fit: cover;
+
+}
+
+.parent {
+display: flex;
+flex-direction: column;
+gap: 10px;
+/* gap: 50px;
+justify-content: center; */
+
+}
+
+body {
+background-color: brown;
+
+}
+
+
+
+
+
+
+
+
+
+}

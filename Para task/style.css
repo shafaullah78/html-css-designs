@@ -1,0 +1,37 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+h1{
+color: rgba(0, 0, 255, 0.632);
+font-size: 60px;
+margin: 10px;
+}
+
+h2{
+color: rgba(0, 153, 255, 0.92);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin: 10px;
+letter-spacing: 5px;
+}
+
+p{
+font-size: large;
+margin: 10px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p u{
+color: rgb(255, 0, 0);
+text-decoration: none;
+
+}
+
+h3{
+color: rgb(81, 121, 207);
+font-size: 30px;
+margin: 10px;
+
+
+}

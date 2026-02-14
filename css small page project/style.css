@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    align-items: center;
+
+    input {
+        padding: 7px;
+        width: 350px;
+
+    }
+
+
+}
+
+
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin: 50px;
+}
+
+
+
+.left {
+    width: 33%;
+    /* border: 3px solid black; */
+
+
+}
+
+.left>img {
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.sub-images {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.sub-images>img {
+    width: 60px;
+
+
+}
+
+.Right {
+    width: 33%;
+    background-color: white;
+    /* border: 3px solid black; */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 20px antiquewhite;
+
+
+}
+
+.abc>h1,
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0px;
+
+}
+
+.xyz>p b,
+u {
+    font-weight: bold;
+    font-size: larger;
+
+}
+
+.icon {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+}
+
+.icon>i {
+    font-size: large;
+    color: yellow;
+}
+
+
+.main-button {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+
+}
+
+.one>button {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 35px;
+    color: white;
+    border-radius: 5px;
+
+
+}
+
+.two>button {
+    width: 50px;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+.three>button {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 35px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+
+.big>button {
+    width: 350px;
+    margin: 30px 70px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.last {
+    background-color: antiquewhite;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 20px;
+    box-shadow: 10px 10px black;
+
+
+}
+
+.last>button {
+    padding: 7px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+
+@media screen and (max-width:700px) {
+
+
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+
+
+        input {
+            padding: 7px;
+            width: 300px;
+
+        }
+
+
+    }
+
+
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+
+
+    .left {
+        width: 100%;
+
+
+
+    }
+
+    .left>img {
+        width: 100%;
+        border-radius: 10px;
+
+    }
+
+    .sub-images {
+        display: flex;
+        /* justify-content: space-between; */
+
+
+
+    }
+
+    .sub-images>img {
+        width: 30px;
+
+
+    }
+
+    .Right {
+        width: 100%;
+        background-color: white;
+        /* border: 3px solid black; */
+        padding: 5px;
+        border-radius: 10px;
+        box-shadow: 0 0 5px 5px antiquewhite;
+
+
+    }
+
+    .abc>h1,
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 5px;
+
+        font-size: 20px;
+    }
+
+    .xyz>p b,
+    u {
+        font-weight: bold;
+        font-size: large;
+
+    }
+
+    .icon {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .icon>i {
+        font-size: small;
+        color: yellow;
+    }
+
+
+    .main-button {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+
+
+    }
+
+    .one>button {
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 35px;
+        color: white;
+        border-radius: 5px;
+
+
+    }
+
+    .two>button {
+        width: 50px;
+        background-color: white;
+        border-radius: 5px;
+
+    }
+
+    .three>button {
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 35px;
+        color: white;
+        border-radius: 5px;
+
+    }
+
+
+    .big>button {
+        width: 100px;
+
+        background-color: rgba(0, 0, 0, 0.8);
+
+        border-radius: 10px;
+        color: white;
+        font-weight: bold;
+
+    }
+
+    .last {
+        background-color: antiquewhite;
+        margin: 10px;
+        padding: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border-radius: 20px;
+        box-shadow: 10px 10px black;
+
+
+    }
+
+    .last>button {
+        padding: 7px;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+
+
+
+
+
+}

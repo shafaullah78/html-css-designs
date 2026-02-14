@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    background-image: linear-gradient(to right, blue, pink);
+
+
+}
+
+
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    min-height: 100vh;
+    align-items: center;
+
+}
+
+/* this is the card section */
+
+.card {
+    width: 20%;
+    border: 3px groove;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+.card>img {
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.card>h1,
+h3,
+p {
+    padding: 5px;
+
+}
+
+.local-sec {
+    display: flex;
+ padding: 0;
+
+}
+
+.local-sec>img {
+    object-fit: contain;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+}
+
+
+
+/* this is the left section */
+
+.abc {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    width: 180px;
+    border-radius: 50px;
+
+}
+
+.abc>p>b {
+    color: red;
+
+}
+
+.secondary h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.secondary>h2 {
+    color: white;
+    font-size: 35px;
+    padding: 5px;
+}
+
+.secondary>h1 {
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px;
+}
+
+.secondary>h4 {
+    color: white;
+    padding: 5px;
+
+
+}
+
+/* this is the media query section  */
+
+
+@media screen and (max-width:768px) {
+
+
+
+    body {
+        background-image: linear-gradient(to right, blue, pink);
+
+
+    }
+
+
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        /* justify-content: center;
+        gap: 100px;
+        min-height: 100vh;
+        align-items: center; */
+
+    }
+
+    /* this is the card section */
+
+    .card {
+        width: 95%;
+        border: 2px groove;
+        background-color: white;
+        border-radius: 10px;
+
+    }
+
+    .card>img {
+        width: 100%;
+        border-radius: 10px;
+
+    }
+
+    .card>h1,
+    h3,
+    p {
+        padding: 20px;
+
+    }
+
+    .local-sec {
+        display: flex;
+
+
+    }
+
+    .local-sec>img {
+        object-fit: contain;
+        background-color: blanchedalmond;
+        border-radius: 10px;
+    ;
+    }
+
+
+
+    /* this is the left section */
+
+    .abc {
+        background-color: rgba(0, 0, 0, 0.3);
+        color: white;
+        width: 180px;
+        border-radius: 50px;
+
+    }
+
+    .abc>p>b {
+        color: red;
+
+    }
+
+    .secondary h3 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .secondary>h2 {
+        color: white;
+        font-size: 35px;
+        padding: 5px;
+    }
+
+    .secondary>h1 {
+        color: red;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding: 5px;
+    }
+
+    .secondary>h4 {
+        color: white;
+        padding: 5px;
+
+
+    }
+
+
+
+}
