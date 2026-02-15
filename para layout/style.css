@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    background-color: aliceblue;
+
+
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 119, 255);
+    margin: 20px 0px;
+}
+
+p {
+    line-height: 30px;
+
+}
+
+ul>li {
+    list-style: circle inside;
+    margin: 0px 20px;
+
+
+}
+
+ul {
+    margin: 20px 0px;
+
+
+}
+
+/* this is the table section */
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr>th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+
+
+
+}
+
+th {
+    background-color: rgba(0, 0, 255, 0.6);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+
+
+}
+
+.abc {
+    width: 40%;
+
+}
+
+tr>td {
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.first-row {
+    background-color: rgba(0, 174, 255, 0.5);
+    font-weight: bold;
+}
+
+
+.second-row {
+    background-color: rgba(0, 208, 255, 0.2);
+    font-weight: bold;
+
+}
+
+.third-row {
+    background-color: rgba(0, 174, 255, 0.5);
+    font-weight: bold;
+
+}
+
+.fourth-row {
+    background-color: rgba(0, 208, 255, 0.2);
+    font-weight: bold;
+
+}
+
+/* this is the form section */
+
+fieldset {
+    width: 50%;
+
+}
+
+input{
+width: 50%;
+
+}
+label{
+
+
+
+}
+
+legend {
+    margin: 20px;
+    padding:0 20px;
+
+}
+
+form {
+   
+    background-color: white;
+
+}
+
+
+
+
+@media screen and (max-width:768px) {
+
+
+
+
+    * {
+        margin: 0;
+        padding: 0;
+
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: aliceblue;
+
+
+    }
+
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(0, 119, 255);
+        margin: 10px;
+    }
+
+    p {
+        line-height: 20px;
+
+    }
+
+    ul>li {
+        list-style: circle inside;
+        margin: 10px;
+
+
+    }
+
+    ul {
+        margin: 0px;
+
+
+    }
+
+    /* this is the table section */
+
+    table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin: 10px;
+    }
+
+    tr>th,
+    td {
+        border: 1px solid black;
+
+
+
+
+    }
+
+    th {
+        background-color: rgba(0, 0, 255, 0.6);
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+
+
+    }
+
+    .abc {
+        width: 40%;
+
+    }
+
+    tr>td {
+        font-family: Arial, Helvetica, sans-serif;
+
+
+    }
+
+    .first-row {
+        background-color: rgba(0, 174, 255, 0.5);
+        font-weight: bold;
+    }
+
+
+    .second-row {
+        background-color: rgba(0, 208, 255, 0.2);
+        font-weight: bold;
+
+    }
+
+    .third-row {
+        background-color: rgba(0, 174, 255, 0.5);
+        font-weight: bold;
+
+    }
+
+    .fourth-row {
+        background-color: rgba(0, 208, 255, 0.2);
+        font-weight: bold;
+
+    }
+
+    /* this is the form section */
+
+
+    legend {
+        margin: 20px;
+        padding: 30px;
+
+    }
+
+    fieldset {
+        padding: 30px;
+
+
+    }
+
+    form {
+        width: 100%;
+        padding: 0;
+        background-color: white;
+
+    }
+
+    input {
+        width: 100%;
+
+
+    }
+
+
+}

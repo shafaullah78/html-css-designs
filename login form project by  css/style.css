@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+
+
+form {
+    background-color: black;
+    padding: 50px;
+
+
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+
+
+}
+
+input {
+    width: 250px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: gray;
+
+
+}
+
+button {
+    background-color: aqua;
+    color: black;
+    width: 250px;
+    padding: 7px;
+    margin-left: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px aqua;
+
+
+}
+
+a {
+    color: darkmagenta;
+
+}
+
+p {
+    padding: 5px;
+
+
+}
+
+/* this is the media query section  */
+
+@media screen and (max-width:768px) {
+
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    body {
+        background-color: rgba(0, 0, 0, 0.8);
+     
+    }
+
+
+    form {
+        background-color: black;
+        padding: 30px;
+
+
+    }
+
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: aqua;
+
+
+    }
+
+    input {
+        width: 250px;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: gray;
+
+
+    }
+
+    button {
+        background-color: aqua;
+        color: black;
+        width: 250px;
+        padding: 7px;
+        margin-left: 5px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px aqua;
+
+
+    }
+
+    a {
+        color: darkmagenta;
+
+    }
+
+    p {
+        padding: 5px;
+
+
+    }
+
+}

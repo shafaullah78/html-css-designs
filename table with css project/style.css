@@ -1,0 +1,254 @@
+body {
+    background-color: black;
+
+
+}
+
+
+.main-container {
+    background-color: rgb(46, 36, 36);
+    width: 70%;
+margin: auto;
+
+}
+
+table {
+    border: 1px solid rgba(255, 255, 255, 0.642);
+    border-collapse: collapse;
+    width: 80%;
+   margin: auto;
+
+
+
+}
+
+th,
+td {
+    border: 1px solid white;
+    font-size: large;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* this is the substituional part of the table */
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+
+}
+
+.ab {
+    background-color: white;
+    text-align: left;
+    font-size: 13px;
+    width: 33%;
+
+
+}
+
+.bc {
+    background-color: gold;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+
+.cd {
+    background-color: red;
+    color: white;
+    font-size: 12px;
+}
+
+.df {
+    background-color: rgb(0, 157, 255);
+    color: white;
+    font-size: 12px;
+}
+
+.main {
+    color: white;
+    font-size: 12px;
+
+
+}
+
+.sb {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+
+}
+
+.xz {
+    color: gold;
+    font-weight: bold;
+    text-align: center;
+}
+
+.yz {
+    color: rgba(255, 0, 0, 0.726);
+    font-weight: bold;
+    text-align: center;
+}
+
+.wz {
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+}
+
+button {
+    background-color: red;
+    color: white;
+    width: 60%;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+td:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.bt {
+    text-align: center;
+
+}
+
+@media screen and (max-width:768px){
+
+*{
+margin: 0;
+padding: 0;
+
+}
+
+    body {
+    background-color: black;
+
+
+}
+
+
+.main-container {
+    background-color: rgb(46, 36, 36);
+    width: 80%;
+
+
+}
+
+table {
+    border: 1px solid rgba(255, 255, 255, 0.642);
+    border-collapse: collapse;
+    width: 80%;
+ 
+
+
+
+}
+
+th,
+td {
+    border: 1px solid white;
+    font-size: small;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* this is the substituional part of the table */
+
+h1 {
+    font-size: large;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+
+}
+
+.ab {
+    background-color: white;
+    text-align: left;
+    font-size: 10px;
+    width: 23%;
+
+
+}
+
+.bc {
+    background-color: gold;
+    font-size: 8px;
+    color: white;
+    text-align: center;
+}
+
+.cd {
+    background-color: red;
+    color: white;
+    font-size: 8px;
+}
+
+.df {
+    background-color: rgb(0, 157, 255);
+    color: white;
+    font-size: 8px;
+}
+
+.main {
+    color: white;
+    font-size: 8px;
+
+
+}
+
+.sb {
+    color: white;
+    text-align: center;
+    font-size: 8px;
+
+}
+
+.xz {
+    color: gold;
+    font-weight: small;
+    text-align: center;
+}
+
+.yz {
+    color: rgba(255, 0, 0, 0.726);
+    font-weight: small;
+    text-align: center;
+}
+
+.wz {
+    color: blue;
+    font-weight: small;
+    text-align: center;
+}
+
+button {
+    background-color: red;
+    color: white;
+    width: 100%;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 9px;
+}
+
+td:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+}

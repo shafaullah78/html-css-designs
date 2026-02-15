@@ -1,0 +1,245 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+.navbar{
+
+    display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 15px 0px;
+background-color: black;
+color: white;
+font-size: large;
+font-family: sans-serif;
+}
+
+
+.nav-2{
+display: flex;
+width: 70%;
+justify-content: flex-end;
+gap: 50px;
+align-items: center;
+}
+
+
+.abc{
+color:  brown;
+
+}
+
+/* this is the second section */
+
+
+.second{
+background-color: black;
+color: white;
+text-align: center;
+font-family: sans-serif;
+}
+
+
+.second h1{
+color:  brown;
+
+
+}
+
+/* this is the third section  */
+
+.third{
+display: flex;
+
+
+}
+
+.card-container{
+
+display: flex;
+justify-content: center;
+gap: 40px;
+
+
+}
+
+.card>h2{
+color:  brown;
+
+}
+
+.red-card{
+background-color: brown;
+color: black;
+width: 40%;
+margin: auto;
+padding: 10px;
+text-align: center
+}
+
+.red-card input{
+border: none;
+background-color: brown;
+border-bottom: 1px solid black;
+padding: 7px;
+}
+
+.red-card button{
+background-color: black;
+color: white;
+padding: 7px;
+border: none;
+border-radius: 5px;
+
+}
+
+.sidebar-left, .sidebar-right{
+width: 10%;
+background-color: black;
+color: white;
+text-align: center;
+font-size: large;
+
+}
+
+.central-sec{
+width: 80%;
+background-color: rgba(0, 0, 0, 0.9);
+color: white;
+}
+
+
+
+
+@media screen and (max-width:768px){
+
+
+
+
+
+.navbar{
+
+    display: flex;
+    flex-direction: column;
+/* justify-content: space-around;
+align-items: center; */
+/* padding: 15px 0px; */
+background-color: black;
+color: white;
+font-size: large;
+font-family: sans-serif;
+}
+
+
+.nav-2{
+display: flex;
+flex-direction: column;
+width: 100%;
+/* justify-content: flex-end; */
+gap: 10px;
+align-items: center;
+}
+
+
+.abc{
+color:  brown;
+
+}
+
+/* this is the second section */
+
+
+.second{
+background-color: black;
+color: white;
+text-align: center;
+font-family: sans-serif;
+}
+
+
+.second h1{
+color:  brown;
+
+
+}
+
+/* this is the third section  */
+
+.third{
+display: flex;
+flex-direction: column;
+
+
+}
+
+.card-container{
+
+display: flex;
+flex-direction: column;
+text-align: center;
+/* justify-content: center;
+gap: 40px; */
+
+
+}
+
+.card>h2{
+color:  brown;
+
+}
+
+.red-card{
+background-color: brown;
+color: black;
+width: 100%;
+
+padding: 10px;
+text-align: center
+}
+
+.red-card input{
+border: none;
+background-color: brown;
+border-bottom: 1px solid black;
+padding: 7px;
+}
+
+.red-card button{
+background-color: black;
+color: white;
+padding: 7px;
+border: none;
+border-radius: 5px;
+
+}
+
+.sidebar-left, .sidebar-right{
+width: 100%;
+background-color: black;
+color: white;
+text-align: center;
+font-size: large;
+display: flex;
+justify-content: center;
+gap: 10px;
+align-items: center;
+
+}
+
+.central-sec{
+width: 100%;
+background-color: rgba(0, 0, 0, 0.9);
+color: white;
+}
+
+
+
+
+
+
+
+
+}
