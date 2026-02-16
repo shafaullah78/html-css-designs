@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnClW_fo4uH6rUZlByMVCDG1n8Z9ue4g3s6A&s");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.main-container {
+    /* padding: 0px 50px; */
+
+}
+
+/* This is the navbar section in the  */
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.sub {
+    font-size: 40px;
+    color: orange;
+
+
+}
+
+.navbar div input {
+    width: 300px;
+    padding: 7px;
+    border-radius: 5px;
+
+}
+
+.navbar div button {
+    width: 75px;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: orange;
+
+
+}
+
+/* This is the central section in the web page */
+
+.section-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 90vh;
+
+
+
+}
+
+.left h1 b {
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+
+
+.left h1 u {
+    font-size: 70px;
+    text-decoration: none;
+    color: rgb(246, 161, 3);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.left h2 {
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.left p {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.left button {
+    width: 85px;
+    padding: 8px;
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+
+
+
+}
+
+
+.left button:hover {
+    background-color: yellow;
+    color: green;
+    transform: scale(1.5);
+    transition: 1s;
+
+
+}
+
+
+form {
+    padding: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset {
+    border-radius: 10px;
+
+}
+
+form input {
+    background-color: black;
+    width: 200px;
+    color: rgb(199, 194, 194);
+    border: none;
+    padding: 8px;
+    border-bottom: 1px solid white;
+
+}
+
+form h2 {
+    background-color: white;
+    color: orange;
+    border-radius: 5px;
+    padding: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+form button {
+    width: 200px;
+    padding: 7px;
+    background-color: orange;
+    border-radius: 7px;
+    box-shadow: 0 0 3px 3px orange;
+    border: none;
+    font-weight: bold;
+
+
+}
+
+form a {
+    color: orange;
+    text-decoration: none;
+
+}
+
+form i {
+    font-size: larger;
+
+
+}
+
+
+/* This is the responsive section for the moblie */
+
+
+@media screen and (max-width:650px) {
+
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        color: white;
+        /* align-items: center; */
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sub {
+        font-size: 20px;
+        color: orange;
+
+
+    }
+
+    .navbar div input {
+        width: 200px;
+        padding: 5px;
+        border-radius: 5px;
+
+    }
+
+    .navbar div button {
+        width: 75px;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: orange;
+
+
+    }
+
+    /* This is the central section in the web page */
+
+    .section-container {
+        display: flex;
+        flex-direction: column;
+      
+        margin: 0;
+        padding: 10px;
+        /* justify-content: space-around;
+align-items: center; */
+        /* min-height: 90vh; */
+
+
+
+    }
+
+    .left h1 b {
+        font-size: 25px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: black;
+    }
+
+
+    .left h1 u {
+        font-size: 30px;
+        text-decoration: none;
+        color: rgb(246, 161, 3);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .left h2 {
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+
+    .left p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+
+    }
+
+    .left button {
+        width: 85px;
+        padding: 8px;
+        background-color: orange;
+        color: black;
+        font-weight: bold;
+        border: none;
+        border-radius: 7px;
+    }
+
+    form {
+        width: 100%;
+        padding: 20px;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    fieldset {
+        border-radius: 10px;
+
+
+
+    }
+
+    form input {
+        background-color: black;
+        width: 150px;
+        color: white;
+        border: none;
+        padding: 8px;
+        border-bottom: 1px solid white;
+
+    }
+
+    form h2 {
+        background-color: white;
+        color: orange;
+        border-radius: 5px;
+        padding: 4px;
+        font-family: Arial, Helvetica, sans-serif;
+
+
+    }
+
+    form button {
+        width: 200px;
+        padding: 7px;
+        background-color: orange;
+        border-radius: 7px;
+        box-shadow: 0 0 3px 3px orange;
+        border: none;
+        font-weight: bold;
+
+
+    }
+
+    form a {
+        color: orange;
+        text-decoration: none;
+
+    }
+
+    form i {
+        font-size: large;
+
+
+    }
+
+
+
+}
