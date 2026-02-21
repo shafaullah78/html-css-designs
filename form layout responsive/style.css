@@ -219,14 +219,11 @@ form i {
     .section-container {
         display: flex;
         flex-direction: column;
-      
+
         margin: 0;
         padding: 10px;
         /* justify-content: space-around;
-align-items: center; */
         /* min-height: 90vh; */
-
-
 
     }
 
@@ -268,7 +265,7 @@ align-items: center; */
 
     form {
         width: 100%;
-        padding: 20px;
+        padding: 15px;
         background-color: black;
         color: white;
         border-radius: 10px;
