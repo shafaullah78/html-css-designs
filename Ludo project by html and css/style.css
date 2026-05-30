@@ -1,0 +1,695 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+body {
+
+    display: flex;
+
+    justify-content: center;
+
+    height: 100vh;
+
+    align-items: center;
+
+}
+
+
+.Ludo-bord {
+
+    width: 700px;
+
+    height: 700px;
+
+    border: 2px solid black;
+
+}
+
+
+.container-1,
+.container-3 {
+
+    width: 100%;
+
+    height: 40%;
+
+    display: flex;
+
+}
+
+
+.container-2 {
+
+    width: 100%;
+
+    height: 20%;
+
+    display: flex;
+
+}
+
+
+/* this is the section for the inerfaces */
+
+.row1-col1,
+.row1-col3,
+.row3-col1,
+.row3-col3 {
+
+    width: 40%;
+
+    height: 100%;
+
+}
+
+
+.row1-col2,
+.row3-col2 {
+
+    height: 100%;
+
+    width: 20%;
+
+}
+
+
+.row2-col1,
+.row2-col3 {
+
+    width: 40%;
+
+    height: 100%;
+
+}
+
+
+.row2-col2 {
+
+    width: 20%;
+
+    height: 100%;
+
+}
+
+
+/* thi is the color section  */
+
+.green {
+
+    background-color: green;
+
+}
+
+
+.red {
+
+    background-color: red;
+
+}
+
+
+.yellow {
+
+    background-color: yellow;
+
+}
+
+
+.blue {
+
+    background-color: blue;
+
+}
+
+
+/* this is the internal face structure containing the interfaces */
+
+.row1-col1-child,
+.row1-col3-child,
+.row3-col1-child,
+.row3-col3-child {
+
+    width: 70%;
+
+    height: 70%;
+
+    background-color: white;
+
+    margin: 15%;
+
+}
+
+
+.row1-col1-child>div,
+.row1-col3-child>div,
+.row3-col1-child>div,
+.row3-col3-child>div {
+
+    width: 30%;
+
+    height: 30%;
+
+    float: left;
+
+    margin: 10%;
+
+}
+
+
+.row1-col2>div,
+.row3-col2>div {
+
+    width: 33.33%;
+
+    height: 16.667%;
+
+    border: 1px solid black;
+
+    float: left;
+
+}
+
+
+.row2-col1>div,
+.row2-col3>div {
+
+    width: 16.667%;
+
+    height: 33.33%;
+
+    border: 1px solid black;
+
+    float: left;
+
+}
+
+
+/* this is the icon section  */
+
+.icon {
+
+    color: white;
+
+    margin: 6px 2px;
+
+}
+
+
+/* this is the central part of the ludo containing the ludo section  */
+
+.contain-triangles {
+
+    width: 100%;
+
+    height: 100%;
+
+    position: relative;
+
+}
+
+
+.triangle-left {
+
+    width: 0;
+
+    height: 0;
+
+    border-top: 60px solid transparent;
+
+    border-bottom: 60px solid transparent;
+
+    border-left: 60px solid green;
+
+    position: absolute;
+
+    top: 10px;
+
+    left: 0px;
+
+}
+
+
+.triangle-right {
+
+    width: 0;
+
+    height: 0;
+
+    border-top: 60px solid transparent;
+
+    border-bottom: 60px solid transparent;
+
+    border-right: 60px solid blue;
+
+    position: absolute;
+
+    right: 0px;
+
+    top: 10px;
+
+}
+
+
+.triangle-bottom {
+
+    height: 0;
+
+    width: 0;
+
+    border-left: 60px solid transparent;
+
+    border-right: 60px solid transparent;
+
+    border-bottom: 60px solid red;
+
+    position: absolute;
+
+    bottom: 0px;
+
+    left: 10px;
+
+}
+
+
+.triangle-top {
+
+    width: 0;
+
+    height: 0;
+
+    border-left: 60px solid transparent;
+
+    border-right: 60px solid transparent;
+
+    border-top: 60px solid yellow;
+
+    position: absolute;
+
+    left: 10px;
+
+    top: 0px;
+
+}
+
+
+.circle {
+
+    width: 50%;
+
+    height: 50%;
+
+    border-radius: 50%;
+
+    background-color: white;
+
+    margin: 30px;
+
+    position: absolute;
+
+    z-index: 1;
+
+}
+
+
+.text {
+
+    margin: 25px 8px;
+
+    color: gold;
+
+}
+
+
+/* this is the lodo wala dana section  */
+img {
+
+    position: relative;
+
+    right: 500px;
+
+    top: 100px;
+
+    z-index: 1;
+
+}
+
+
+/* this is the media query section  */
+
+@media screen and (max-width:768px) {
+
+    * {
+
+        margin: 0;
+
+        padding: 0;
+
+        box-sizing: border-box;
+
+    }
+
+
+    body {
+
+        display: flex;
+
+        justify-content: center;
+
+        height: 100vh;
+
+        align-items: center;
+
+    }
+
+
+    .Ludo-bord {
+
+        width: 80%;
+
+        max-width: 600px;
+
+        aspect-ratio: 1/1;
+
+        border: 2px solid black;
+
+    }
+
+
+    .container-1,
+    .container-3 {
+
+        width: 100%;
+
+        height: 40%;
+
+        display: flex;
+
+    }
+
+
+    .container-2 {
+
+        width: 100%;
+
+        height: 20%;
+
+        display: flex;
+
+    }
+
+
+    /* this is the section for the inerfaces */
+
+    .row1-col1,
+    .row1-col3,
+    .row3-col1,
+    .row3-col3 {
+
+        width: 40%;
+
+        height: 100%;
+
+    }
+
+
+    .row1-col2,
+    .row3-col2 {
+
+        height: 100%;
+
+        width: 20%;
+
+    }
+
+
+    .row2-col1,
+    .row2-col3 {
+
+        width: 40%;
+
+        height: 100%;
+
+    }
+
+
+    .row2-col2 {
+
+        width: 20%;
+
+        height: 100%;
+
+    }
+
+
+    /* thi is the color section  */
+
+    .green {
+
+        background-color: green;
+
+    }
+
+
+    .red {
+
+        background-color: red;
+
+    }
+
+
+    .yellow {
+
+        background-color: yellow;
+
+    }
+
+
+    .blue {
+
+        background-color: blue;
+
+    }
+
+
+    /* this is the internal face structure containing the interfaces */
+
+    .row1-col1-child,
+    .row1-col3-child,
+    .row3-col1-child,
+    .row3-col3-child {
+
+        width: 70%;
+
+        height: 70%;
+
+        background-color: white;
+
+        margin: 15%;
+
+    }
+
+
+    .row1-col1-child>div,
+    .row1-col3-child>div,
+    .row3-col1-child>div,
+    .row3-col3-child>div {
+
+        width: 30%;
+
+        height: 30%;
+
+        float: left;
+
+        margin: 10%;
+
+    }
+
+
+    .row1-col2>div,
+    .row3-col2>div {
+
+        width: 33.33%;
+
+        height: 16.667%;
+
+        border: 1px solid black;
+
+        float: left;
+
+    }
+
+
+    .row2-col1>div,
+    .row2-col3>div {
+
+        width: 16.667%;
+
+        height: 33.33%;
+
+        border: 1px solid black;
+
+        float: left;
+
+    }
+
+
+    /* this is the icon section  */
+
+    .icon {
+
+        color: white;
+
+        margin: 6px 2px;
+
+    }
+
+
+    /* this is the central part of the ludo containing the ludo section  */
+
+    .contain-triangles {
+
+        width: 100%;
+
+        height: 100%;
+
+        position: relative;
+
+    }
+
+
+    .triangle-left {
+
+        width: 0;
+
+        height: 0;
+
+        border-top: 60px solid transparent;
+
+        border-bottom: 60px solid transparent;
+
+        border-left: 60px solid green;
+
+        position: absolute;
+
+        top: 10px;
+
+        left: 0px;
+
+    }
+
+
+    .triangle-right {
+
+        width: 0;
+
+        height: 0;
+
+        border-top: 60px solid transparent;
+
+        border-bottom: 60px solid transparent;
+
+        border-right: 60px solid blue;
+
+        position: absolute;
+
+        right: 0px;
+
+        top: 10px;
+
+    }
+
+
+    .triangle-bottom {
+
+        height: 0;
+
+        width: 0;
+
+        border-left: 60px solid transparent;
+
+        border-right: 60px solid transparent;
+
+        border-bottom: 60px solid red;
+
+        position: absolute;
+
+        bottom: 0px;
+
+        left: 10px;
+
+    }
+
+
+    .triangle-top {
+
+        width: 0;
+
+        height: 0;
+
+        border-left: 60px solid transparent;
+
+        border-right: 60px solid transparent;
+
+        border-top: 60px solid yellow;
+
+        position: absolute;
+
+        left: 10px;
+
+        top: 0px;
+
+    }
+
+
+    .circle {
+
+        width: 50%;
+
+        height: 50%;
+
+        border-radius: 50%;
+
+        background-color: white;
+
+        margin: 30px;
+
+        position: absolute;
+
+        z-index: 1;
+
+    }
+
+
+    .text {
+
+        margin: 25px 8px;
+
+        color: gold;
+
+    }
+
+
+    /* this is the lodo wala dana section  */
+
+    img {
+
+        position: relative;
+
+        right: 500px;
+
+        top: 100px;
+
+        z-index: 1;
+
+    }
+
+
+
+}
